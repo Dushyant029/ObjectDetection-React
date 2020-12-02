@@ -10,6 +10,7 @@ function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
 
+  // K. Dushyant Reddy write-up
   // Main function
   const runCoco = async () => {
     const net = await cocossd.load();
